@@ -1,0 +1,14 @@
+[user]
+    email = {{ .email | quote }}
+    name = {{ .name | quote }}
+
+[alias]
+	ff = merge --ff-only
+	cloner = clone --recursive
+	change-commits = "!f() {{"{"}} VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; {{"}"}}; f"
+	
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
