@@ -1,0 +1,10 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [100],
+    "editor.selectionClipboard": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+}
