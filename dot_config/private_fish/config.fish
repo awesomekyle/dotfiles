@@ -3,3 +3,4 @@ if not status is-interactive
 end
 
 set -g ELECTRON_OZONE_PLATFORM_HINT auto
+set -g REGISTRY_AUTH_FILE "$HOME/.podman-auth.json"
