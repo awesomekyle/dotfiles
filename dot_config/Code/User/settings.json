@@ -3,8 +3,12 @@
     "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace",
     "workbench.colorTheme": "One Dark Pro Darker",
     "editor.renderWhitespace": "all",
-    "editor.rulers": [100],
+    "editor.rulers": [
+        100
+    ],
     "editor.selectionClipboard": false,
     "files.trimTrailingWhitespace": true,
     "editor.formatOnSave": true,
+    "dev.containers.dockerPath": "podman",
+    "workbench.iconTheme": "vscode-icons",
 }
